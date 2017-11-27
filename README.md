@@ -15,6 +15,6 @@ The below pipeline configuration demonstrates simple usage:
 
 Parameter Reference:
 
-    NPM_TOKEN- token of npm account
+    NPM_TOKEN : token of npm account
     
 for get the token please see https://docs.npmjs.com/private-modules/ci-server-config#getting-an-authentication-token
