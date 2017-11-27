@@ -3,14 +3,16 @@ README:
 The release-tonpm can be used to publish images to npm. 
 The below pipeline configuration demonstrates simple usage:
 
-  deploy_to_npm:
-    title: Publishing To Npm
-    image: codefresh/release-to-npm
-    commands:
-      - NPM_TOKEN=${{NPM_TOKEN}} npm run ci-publish
-    when:
-      branch:
-        only: [ master ]
+EXAMPLE:
+
+    deploy_to_npm:  
+      title: Publishing To Npm 
+      image: codefresh/release-to-npm
+      commands:
+      - NPM_TOKEN=${{NPM_TOKEN}} npm run ci-publish 
+      when:   
+        branch: 
+          only: [ master ]
 
 
 Parameter Reference:
